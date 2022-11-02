@@ -1,0 +1,22 @@
+###
+POST http://localhost:8080/members
+Content-Type: application/json
+
+{
+  "name": "고랭",
+  "email": "go444@gogogo.com",
+  "birthdate": "2022-10-20"
+}
+
+###
+GET http://localhost:8080/members
+
+###
+PUT http://localhost:8080/members
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "고랭2222",
+  "birthdate": "2022-10-20"
+}
