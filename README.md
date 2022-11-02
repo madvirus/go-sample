@@ -9,3 +9,7 @@
 * 날짜,시간 : [Carbon](https://github.com/golang-module/carbon)
 * 환경설정 : [GoDotEnv](https://github.com/joho/godotenv)
 * 테스트&mock : [testify](https://github.com/stretchr/testify)
+
+## 구성 요소 구조
+
+![](golang-design.png)
